@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="file.css" />
+    <!-- <script src="file.js"></script> -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home" onclick="change(event,this)">Home</a></li>
+                <li><a href="#about" onclick="change(event,this)">About</a></li>
+                <li><a href="#food" onclick="change(event,this)">Category</a></li>
+                <li><a href="#food-menu" onclick="change(event,this)">Menu</a></li>
+                <li><a href="#events" onclick="change(event,this)">Events</a></li>
+                <li><a href="#catering" onclick="change(event,this)">Catering</a></li>
+                <li><a href="#careers" onclick="change(event,this)">Careers</a></li>
+                <li><a href="#contact" onclick="change(event,this)">Contact</a></li>
+            </ul>
+            <h1 class="logo">Krithunga</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Eat Right Food</h1>
+            <p>Eat Healthy, it is good for our health.</p> 
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="small">About Us</p>
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <h2>We've been making healthy food for 10 years</h2>
+                <p>
+                    Choosing  us for a nourishing experience where quality, freshness, and flavor converge. 
+                    We’re dedicated to sustainable practices and supporting local farmers, ensuring that every dish
+                     serves both health and happiness.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" />
+            </div>
+        </div>
+    </section>
+    <section id="food" class = "tp">
+        <h2>Types of Food</h2>
+        <div class="food-container container">
+            <div class="food-type fruit">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Fruit</h3>
+                        <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Vegetable</h3>
+                        <a href="https://en.wikipedia.org/wiki/Vegetable" class="btn btn-primary" target="blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grain">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Grain</h3>
+                        <a href="https://en.wikipedia.org/wiki/Grain" class="btn btn-primary" target="blank">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Food Menu</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Salad</h2>
+                    <p>
+                        A classic salad with ripe tomatoes, mozzarella, and fresh basil
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                    <button class ="btn btn-primary">order</button>
+                </div>
+            </div>
+    
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Nut Crunch</h2>
+                    <p>
+                        Classical mix of nuts.
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                    <button class ="btn btn-primary">order</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Broccoli</h2>
+                    <p>
+                        
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                    <button class ="btn btn-primary">order</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Fruity Mix</h2>
+                    <p>
+                        Fruit with vegetables.
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                    <button class ="btn btn-primary">order</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Sweet Bowl</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                        quae.
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                    <button class ="btn btn-primary">order</button>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Fruit Lassy</h2>
+                    <p>
+                        rich in protein and fiber.
+                    </p>
+                    <p class="food-price">Price: &#8377; 250</p>
+                    <button class ="btn btn-primary">order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="events" class = "bq">
+        <div class="events-container container"  style="text-align: center;">
+        <div class="event-heading" style="margin-bottom: 70px; margin-top: 0px;">
+          <h2 class="events-header">Events</h2>
+          <p class="events-caption">Organize your events with us.</p>
+        </div>
+          <div class="event-slider" style="margin-bottom: 90px; margin-top: 10px;">
+            <div class="slide">
+              <div class="event-image">
+                <img src="https://img.freepik.com/premium-photo/birthday-party-with-balloons-candles-cons-hanging-from-ceiling-long-table-is-surrounded-by-black-chairs_197463-14154.jpg?size=626&ext=jpg&ga=GA1.1.359984698.1712592764&semt=ais" alt="Birthday Party">
+              </div>
+              <div class="event-details">
+                <h3>Birthday Party</h3>
+                <p>Starting from $100</p>
+                <a href="#contact" class="btn btn-primary" >Buy now</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="event-image">
+                <img src="https://images.pexels.com/photos/2735037/pexels-photo-2735037.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Private Party">
+              </div>
+              <div class="event-details">
+                <h3>Private Party</h3>
+                <p>Starting from $300</p>
+                <a href="#contact" class="btn btn-primary" >Buy now</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="event-image">
+                <img src="https://img.freepik.com/free-photo/medium-shot-friends-with-beer-pub_23-2148872452.jpg?size=626&ext=jpg&ga=GA1.1.1827530304.1710201600&semt=ais" alt="Custom Party">
+              </div>
+              <div class="event-details">
+                <h3>Custom Party</h3>
+                <p>Starting from $500</p>
+                <a href="#contact" class="btn btn-primary" >Buy now</a>
+              </div>
+            </div>
+          </div>
+          <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+          <button class="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+      </section>
+
+    <section id="catering">
+        <div class="catering-container container">
+            <div class="catering-heading" style="margin-bottom: 10px; margin-top: 80px;">
+                <h2 class = "bm" style="text-align: center;">Le Catering</h2>
+                <p class = "bm" style="text-align: center; font-style: italic;">Perfect for any occasion</p>
+            </div>
+            <div class="catering-services" style="margin-bottom: 30px;">
+                <h3>Services Offered</h3>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>Corporate Events</li>
+                    <li>Weddings</li>
+                    <li>Private Parties</li>
+                    <li>Special Occasions</li>
+                </ul>
+            </div>
+            <a href="#contact" class="btn btn-primary" >Contact Us</a>
+        </div>
+    </section>
+
+    <section id="careers">
+        <div class="careers-container container" style="margin-bottom: 80px;">
+            <h1 style="text-align: center; padding-top: 30px;">Careers</h1>
+            <div class="event-heading" style="margin-bottom: 50px; margin-top: 80px;"></div>
+            <div class="careers-text">
+                <h2>We're Hiring!</h2>
+                <p>Join our team and be part of something great. At Krithunga, we value passion, creativity, and teamwork.</p>
+                <p>Explore our current job openings below and apply today!</p>
+                <img src="https://assets.entrepreneur.com/content/3x2/2000/20160915213625-GettyImages-506827008.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380" alt="Image" class="side-image">
+            </div>
+        
+            <div class="job-openings">
+                <h3>Current Job Openings</h3>
+                <ul>
+                    <li>
+                        <strong>Position 1: Chef de Cuisine</strong>
+                        <ul>
+                            <p>Lead our kitchen team in creating exceptional dishes.</p>
+                            <p>Minimum 5 years of culinary experience.</p>
+                            <p>Passion for local, seasonal ingredients.</p>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Position 2: Server</strong>
+                        <ul>
+                            <p>Provide outstanding service to our guests.</p>
+                            <p>Friendly, attentive, and knowledgeable.</p>
+                            <p>Weekend availability required.</p>
+                        </ul>
+                    </li>   
+                </ul>
+            <div class="apply-button">
+                <a href="#contact" class="btn btn-primary">Apply Now</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://wallup.net/wp-content/uploads/2019/09/761372-restaurant-food-architecture-interior-design-room.jpg" alt="Contact Us" />
+            </div>
+    
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <form id="contact-form" class="form-container">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" />
+                    <span id="nameError" class="error"></span><br>
+    
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="E-Mail" />
+                    <span id="emailError" class="error"></span><br>
+    
+                    <label for="phone"></label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" />
+                    <span id="phoneError" class="error"></span><br>
+    
+                    <label for="message"></label>
+                    <textarea id="message" name="message" cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                    <span id="messageError" class="error"></span><br>
+    
+                    <button type="submit" class="btn btn-primary">Send us Messgae</button>
+    
+                </form>
+                <div id="success-message" style="display: none; color: green;">Form submitted successfully!</div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer id="footer">
+        <div class="footer-container container">
+            <div class="footer-left">
+                <h3>Krithunga</h3>
+                <ul>
+                    <li>Email: info@example.com</li>
+                    <li>Phone: +1 (123) 456-7890</li>
+                    <li>Address: sv multiplex, Hyderabad, India</li>
+                </ul>
+
+                <div>
+                    <p class="copyright" style="text-align: center;">
+                        Copyright &copy; 2023 <a href="#">Krithunga</a>
+                        </p>
+                </div>
+                <div class="footer-right" style="text-align: right;">
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Sat: 10am to 11pm</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+
+    <script>
+        function change(event, element) {
+    event.preventDefault(); // Prevent the default behavior of anchor tags to avoid page reload
+    var sectionId = element.getAttribute("href").substring(1); // Get the id of the section to navigate
+    var section = document.getElementById(sectionId);
+    
+    section.scrollIntoView({behavior: "smooth"}); // Scroll to the section smoothly
+}
+
+let slideIndex = 1;
+
+// Function to show slides
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("slide");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+}
+
+// Function to move slides forward or backward
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+showSlides(slideIndex);
+
+
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    if (validateForm()) {
+        // If form validation passes, show the success message
+        document.getElementById("success-message").style.display = "block";
+        // You can also submit the form data to the server here if needed
+
+        // Display a confirmation popup
+        alert("Form submitted successfully!");
+    }
+});
+
+function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+    var message = document.getElementById("message").value;
+
+    var nameError = document.getElementById("nameError");
+    var emailError = document.getElementById("emailError");
+    var phoneError = document.getElementById("phoneError");
+    var messageError = document.getElementById("messageError");
+
+    var valid = true;
+
+   // Name validation
+if (name.trim() === "") {
+    nameError.innerHTML = "Name is required";
+    valid = false;
+} else if (name.trim().length < 4) {
+    nameError.innerHTML = "Name must be at least 4 characters long";
+    valid = false;
+} else {
+    nameError.innerHTML = "";
+}
+
+
+    // Email validation
+    if (email.trim() === "") {
+        emailError.innerHTML = "Email is required";
+        valid = false;
+    } else if (!isValidEmail(email)) {
+        emailError.innerHTML = "Invalid email format";
+        valid = false;
+    } else {
+        emailError.innerHTML = "";
+    }
+
+    // Phone validation
+if (phone.trim() === "") {
+    phoneError.innerHTML = "Phone number is required";
+    valid = false;
+} else if (phone.trim().length < 10 || isNaN(phone.trim())) {
+    phoneError.innerHTML = "Phone number must be exactly 10 digits";
+    valid = false;
+} else {
+    phoneError.innerHTML = "";
+}
+
+
+
+
+    // Message validation
+if (message.trim() === "") {
+    messageError.innerHTML = "Message is required";
+    valid = false;
+} else if (message.trim().length < 30) {
+    messageError.innerHTML = "Message must have at least 30 characters";
+    valid = false;
+} else {
+    messageError.innerHTML = "";
+}
+    return valid;
+}
+
+function isValidEmail(email) {
+    // Very basic email validation regex, you can replace it with more sophisticated ones
+    var emailRegex = /\S+@\S+\.\S+/;
+    return emailRegex.test(email);
+}
+
+
+    </script>
+
+   
+
+</body>
+</html>
